@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+video {
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+h2 {
+  color: #f0ac2d;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #292929;
+}
+
+ul,
+ol {
+  margin-left: 25px;
+}
+
+li {
+  margin: 5px 0;
+}
