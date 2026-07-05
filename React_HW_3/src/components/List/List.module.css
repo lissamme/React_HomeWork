@@ -1,0 +1,35 @@
+.listContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    width: 25rem;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+.deleteBtn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #e87b7b;
+    color: white;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: #d85d5d;
+}

@@ -1,0 +1,23 @@
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* height: 100vh; */
+}
+.ratingImg {
+    width: 10rem;
+}
+.ratingBtn {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 6px;
+    border: 1px solid rebeccapurple;
+    background-color: rgb(230, 159, 159);
+    color: aliceblue;
+    cursor: pointer;
+}
+.ratingBtn:hover {
+    background-color: #bb7ba8;
+}
