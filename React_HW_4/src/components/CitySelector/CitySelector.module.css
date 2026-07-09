@@ -1,0 +1,30 @@
+.selector {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.title {
+    color: #333;
+}
+
+.select {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #999;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.select:hover {
+    border-color: #4f46e5;
+}
+
+.select:focus {
+    outline: none;
+    border-color: #4f46e5;
+}
