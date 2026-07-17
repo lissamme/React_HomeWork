@@ -7,8 +7,8 @@ function UserProfile() {
 
     async function fetchUser() {
         try {
-        const response = await axios.get("https://randomuser.me/api/");
-        setUser(response.data.results[0]);
+        const response = await axios.get("https://randomuser.me/api/0.8/");
+        setUser(response.data.results[0].user);
         } catch (error) {
         console.error(error);
         }
