@@ -1,6 +1,6 @@
 import styles from "./App.module.css";
-import LanguageSwitcher from "./components/LanguageSwitcher/LanguageSwitcher";
-import Text from "./components/Text/Text";
+import LanguageSwitcher from "./components/LanguageSwitcher";
+import Text from "./components/Text";
 
 function App() {
   return (

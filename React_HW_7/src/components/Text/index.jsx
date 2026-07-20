@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { LanguageContext } from "../../context/LanguageContext";
+import { LanguageContext } from "../../context/index";
 import styles from "./Text.module.css";
 
 function Text() {
@@ -11,11 +11,7 @@ function Text() {
     de: "Die deutsche Sprache wurde ausgewählt",
   };
 
-  return (
-    <h1 className={styles.title}>
-        {translations[language]}
-    </h1>
-  );
+  return <h1 className={styles.title}>{translations[language]}</h1>;
 }
 
 export default Text;
